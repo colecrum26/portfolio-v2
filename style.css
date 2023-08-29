@@ -1,0 +1,7 @@
+:root { 
+    --font-base: #252525;
+}
+
+html {
+    color: var(--font-base);
+}

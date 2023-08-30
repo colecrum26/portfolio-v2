@@ -1,5 +1,6 @@
 :root { 
     --font-base: #252525;
+    --link-active: #2963B0;
 }
 
 html {
@@ -16,11 +17,22 @@ body {
 .navbar-content {
     display: flex;
 }
+
 #logo-home {
     font-size: 2em;
     text-decoration: none;
 }
+#logo-home:link, #logo-home:visited {
+    color: var(--font-base);
+}
+
 .nav-link {
     padding: 20px;
     text-decoration: none;
+}
+.nav-link:link, .nav-link:visited {
+    color: var(--font-base);
+}
+.nav-link:active, .nav-link:hover {
+    color: var(--link-active);
 }

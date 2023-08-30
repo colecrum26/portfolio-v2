@@ -6,12 +6,14 @@ html {
     color: var(--font-base);
 }
 body { 
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 #navbar {
     background-color: #DFDEDE;
-
+}
+.navbar-content {
+    display: flex;
+    flex-direction: column;
 }

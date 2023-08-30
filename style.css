@@ -1,6 +1,7 @@
 :root { 
     --font-base: #252525;
-    --link-active: #2963B0;
+    --link-ah: #2963b0;
+    --hover-background: #beb9b9;
 }
 
 html {
@@ -34,5 +35,5 @@ body {
     color: var(--font-base);
 }
 .nav-link:active, .nav-link:hover {
-    color: var(--link-active);
+    color: var(--link-ah);
 }

@@ -10,6 +10,9 @@ html {
 body { 
     margin: 0;
     padding: 0;
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
 }
 
 #navbar {
@@ -39,8 +42,16 @@ body {
     color: var(--link-ah);
 }
 
+#atf {
+    max-width: 1000px;
+}
+
 #intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
+}
+.intro-heading {
+    text-align: left;
 }

@@ -55,3 +55,7 @@ body {
 .intro-heading {
     text-align: left;
 }
+
+#about, #work, #contact {
+    border: 2px solid red;
+}

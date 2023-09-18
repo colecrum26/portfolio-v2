@@ -14,6 +14,9 @@ body {
     min-height: 100%;
     overflow-x: hidden;
 }
+a {
+    text-decoration: none;
+}
 
 #navbar {
     background-color: #DFDEDE;
@@ -25,7 +28,6 @@ body {
 
 #logo-home {
     font-size: 2em;
-    text-decoration: none;
 }
 #logo-home:link, #logo-home:visited {
     color: var(--font-base);
@@ -33,7 +35,6 @@ body {
 
 .nav-link {
     padding: 20px;
-    text-decoration: none;
 }
 .nav-link:link, .nav-link:visited {
     color: var(--font-base);

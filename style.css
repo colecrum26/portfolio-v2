@@ -17,10 +17,14 @@ body {
 a {
     text-decoration: none;
 }
+header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
 
 #navbar {
     background-color: #DFDEDE;
-    position: sticky;
     width: 100%;
 }
 .navbar-content {

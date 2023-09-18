@@ -21,6 +21,7 @@ a {
 #navbar {
     background-color: #DFDEDE;
     position: sticky;
+    width: 100%;
 }
 .navbar-content {
     display: flex;
@@ -28,6 +29,7 @@ a {
 
 #logo-home {
     font-size: 2em;
+    padding: 10px;
 }
 #logo-home:link, #logo-home:visited {
     color: var(--font-base);
@@ -59,4 +61,6 @@ a {
 
 #about, #work, #contact {
     border: 2px solid red;
+    margin: 48px;
+    padding: 10px;
 }

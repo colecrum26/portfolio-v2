@@ -15,10 +15,6 @@ body {
     overflow-x: hidden;
 }
 
-/* come back to this */
-a {
-    text-decoration: none;
-}
 header {
     position: sticky;
     position: -webkit-sticky;
@@ -39,10 +35,12 @@ header {
 }
 #logo-home:link, #logo-home:visited {
     color: var(--font-base);
+    text-decoration: none;
 }
 
 .nav-link {
     padding: 20px;
+    text-decoration: none;
 }
 .nav-link:link, .nav-link:visited {
     color: var(--font-base);

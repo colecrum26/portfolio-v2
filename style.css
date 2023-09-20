@@ -21,6 +21,10 @@ header {
     top: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 #navbar {
     background-color: #DFDEDE;
     width: 100%;
@@ -35,12 +39,10 @@ header {
 }
 #logo-home:link, #logo-home:visited {
     color: var(--font-base);
-    text-decoration: none;
 }
 
 .nav-link {
     padding: 20px;
-    text-decoration: none;
 }
 .nav-link:link, .nav-link:visited {
     color: var(--font-base);
@@ -70,6 +72,10 @@ header {
     border: 2px solid red;
     margin: 48px;
     padding: 10px;
+}
+
+.body-link:hover, #cta-link:hover {
+    text-decoration: underline;
 }
 
 .email-link {

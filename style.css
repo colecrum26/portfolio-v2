@@ -4,6 +4,10 @@
     --hover-background: #beb9b9;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     color: var(--font-base);
 }
@@ -74,8 +78,15 @@ a {
     padding: 10px;
 }
 
-.body-link:hover, #cta-link:hover {
+.body-link:hover, .project-link:hover, #cta-link:hover {
     text-decoration: underline;
+}
+
+.work-content-container, .contact-container {
+    margin-bottom: 18px;
+}
+.work-content-card {
+    margin: 16px 0;
 }
 
 .email-link {

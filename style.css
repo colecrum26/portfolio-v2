@@ -81,7 +81,7 @@ a:link, a:active, a:hover, a:visited {
     margin: 5px 15px;
 }
 
-#about, #work, #contact {
+.body-section {
     border: 2px solid red;
     margin: 48px;
     padding: 10px;
@@ -107,12 +107,14 @@ a:link, a:active, a:hover, a:visited {
 }
 
 #cta-link {
+    align-self: center;
     padding: 8px;
     border: 1px solid black;
     color: var(--font-base);
 }
 #cta-link:hover {
     text-decoration: none;
+    color: var(--link-ah);
 }
 
 .email-link {

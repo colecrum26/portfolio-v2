@@ -82,7 +82,6 @@ a:link, a:active, a:hover, a:visited {
 }
 
 .body-section {
-    display: flex;
     border: 2px solid red;
     margin: 48px;
     padding: 10px;
@@ -109,11 +108,13 @@ a:link, a:active, a:hover, a:visited {
 }
 
 .tech-list {
+    display: flex;
+    justify-content: space-evenly;    
     list-style: none;
+    border: 2px solid red;
 }
 
 #cta-link {
-    align-self: center;
     padding: 8px;
     border: 1px solid black;
     color: var(--font-base);

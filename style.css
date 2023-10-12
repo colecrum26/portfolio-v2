@@ -109,19 +109,19 @@ a:link, a:active, a:hover, a:visited {
 
 .tech-list {
     display: flex;
+    justify-content: center;
     justify-content: space-evenly;    
     list-style: none;
     border: 2px solid red;
 }
 
+.external {
+    display: flex;
+    justify-content: center;
+}
 #cta-link {
     padding: 8px;
     border: 1px solid black;
-    color: var(--font-base);
-}
-#cta-link:hover {
-    text-decoration: none;
-    color: var(--link-ah);
 }
 
 .email-link {

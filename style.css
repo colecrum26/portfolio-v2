@@ -1,5 +1,7 @@
 :root { 
-    --font-base: #3e3e3e;
+    --background: #0c2340;
+    --font-nav: #3e3e3e;
+    --font-base: #d3d3d3;
     --link-ah: #2963b0;
 }
 
@@ -8,9 +10,10 @@
 }
 
 html {
+    background-color: var(--background);
     color: var(--font-base);
 }
-body { 
+body {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -44,14 +47,14 @@ a:link, a:active, a:hover, a:visited {
     padding: 10px;
 }
 #logo-home:link, #logo-home:visited {
-    color: var(--font-base);
+    color: var(--font-nav);
 }
 
 .nav-link {
     padding: 20px;
 }
 .nav-link:link, .nav-link:visited {
-    color: var(--font-base);
+    color: var(--font-nav);
 }
 .nav-link:active, .nav-link:hover {
     color: var(--link-ah);

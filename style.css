@@ -1,8 +1,10 @@
 :root { 
-    --background: #0c2340;
-    --font-nav: #3e3e3e;
-    --font-base: #e3e3e3;
-    --link-ah: #67a8fd;
+    --base: #0c2340;
+    --accent-green: #004C54;
+    --accent-gray: #dfdede;
+    --font-lightGray: #3e3e3e;
+    --font-baseWhite: #e3e3e3;
+    --font-lightBlue: #67a8fd;
 }
 
 * {
@@ -10,8 +12,8 @@
 }
 
 html {
-    background-color: var(--background);
-    color: var(--font-base);
+    background-color: var(--base);
+    color: var(--font-baseWhite);
 }
 body {
     margin: 0;
@@ -27,15 +29,24 @@ header {
     top: 0;
 }
 
+h2 {
+    font-size: 1.8rem;
+    color: var(--accent-green);
+}
+
+p {
+    font-size: 1.05rem;
+}
+
 a {
     text-decoration: none;
 }
 a:link, a:active, a:hover, a:visited {
-    color: var(--link-ah);
+    color: var(--font-lightBlue);
 }
 
 #navbar {
-    background-color: #DFDEDE;
+    background-color: var(--accent-gray);
     width: 100%;
 }
 .navbar-content {
@@ -47,17 +58,17 @@ a:link, a:active, a:hover, a:visited {
     padding: 10px;
 }
 #logo-home:link, #logo-home:visited {
-    color: var(--font-nav);
+    color: var(--font-lightGray);
 }
 
 .nav-link {
     padding: 20px;
 }
 .nav-link:link, .nav-link:visited {
-    color: var(--font-nav);
+    color: var(--font-lightGray);
 }
 .nav-link:active, .nav-link:hover {
-    color: var(--link-ah);
+    color: var(--font-lightBlue);
 }
 
 #atf {
@@ -75,7 +86,9 @@ a:link, a:active, a:hover, a:visited {
 }
 .intro-heading {
     text-align: left;
+    font-size: 2rem;
 }
+
 .scroll-container {
     display: flex;
     justify-content: center;
@@ -121,13 +134,16 @@ a:link, a:active, a:hover, a:visited {
 .external {
     display: flex;
     justify-content: center;
+    padding: 30px;
 }
-#cta-link {
-    padding: 8px;
+.external-link:hover {
+    background-color: var(--accent-green);
+}
+.external-link {
+    padding: 12px;
     border: 1px solid black;
 }
 
-.email-link {
-    border: 1px solid black;
-    padding: 4px;
+#email-link {
+    padding: 8px;
 }

@@ -14,6 +14,7 @@
 html {
     background-color: var(--base);
     color: var(--font-baseWhite);
+    scroll-behavior: smooth;
 }
 body {
     margin: 0;
@@ -27,6 +28,11 @@ header {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+}
+
+section {
+    /* scroll-padding-top: 40px; */
+    scroll-margin-top: 80px;
 }
 
 h2 {

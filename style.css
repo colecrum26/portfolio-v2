@@ -123,6 +123,10 @@ a:link, a:active, a:hover, a:visited {
     text-align: center;
 }
 
+.featured {
+    font-size: 22px;
+}
+
 .tech-list {
     display: flex;
     justify-content: center;

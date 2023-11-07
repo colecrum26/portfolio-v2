@@ -113,13 +113,17 @@ a:link, a:active, a:hover, a:visited {
     text-decoration: underline;
 }
 
+.about-content-container {
+    margin-top: 50px;
+}
+
 #cards {
     display: flex;
     justify-content: space-evenly;
     border: 2px solid red;
     margin: 50px 0;
 }
-.work-content-container, .contact-container {
+.work-content-container {
     margin-bottom: 18px;
 }
 .work-content-card {
@@ -132,12 +136,17 @@ a:link, a:active, a:hover, a:visited {
 .featured {
     font-size: 22px;
 }
-
+.project-copy {
+    text-align: left;
+}
 .tech-list {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;    
+    width: 100%;
+    text-align: center;
     list-style: none;
+    padding: 0;
     border: 2px solid red;
 }
 
@@ -156,6 +165,9 @@ a:link, a:active, a:hover, a:visited {
     border-color: black;
 }
 
+.contact-container {
+    margin: 40px 0px 18px 0px;
+}
 #email-link {
     padding: 8px;
 }

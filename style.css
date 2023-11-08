@@ -98,9 +98,11 @@ a:link, a:active, a:hover, a:visited {
 .scroll-container {
     display: flex;
     justify-content: center;
+    margin: 40px 0;
 }
 .gallery-image {
     margin: 5px 15px;
+    
 }
 
 .body-section {

@@ -12,6 +12,7 @@
 }
 
 html {
+    font-family: "Montserrat", sans-serif;
     background-color: var(--base);
     color: var(--font-baseWhite);
     scroll-behavior: smooth;
@@ -126,20 +127,24 @@ a:link, a:active, a:hover, a:visited {
     gap: 2rem;
 }
 
-#cards {
+.cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    border: 2px solid red;
+    gap: 1rem;
     margin: 50px 0;
+    border: 2px solid red;
 }
 .work-content-container {
     margin-bottom: 18px;
 }
 .work-content-card {
-    border: 2px solid red;
+    height: 300px;
+    width: 300px;
     margin: 16px 0;
     padding: 12px;
     text-align: center;
+    border: 2px solid red;
 }
 
 .featured {

@@ -54,10 +54,16 @@ a:link, a:active, a:hover, a:visited {
 
 #navbar {
     background-color: var(--accent-gray);
-    width: 100%;
 }
 .navbar-content {
     display: flex;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: end;
+    gap: 1rem;
 }
 
 #logo-home {
@@ -103,7 +109,6 @@ a:link, a:active, a:hover, a:visited {
 }
 .gallery-image {
     margin: 5px 15px;
-    
 }
 
 .body-section {
@@ -118,13 +123,6 @@ a:link, a:active, a:hover, a:visited {
 
 .about-content-container {
     margin-top: 50px;
-}
-
-.icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
 }
 
 .cards {

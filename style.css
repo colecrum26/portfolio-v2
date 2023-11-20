@@ -69,9 +69,6 @@ a:link, a:active, a:hover, a:visited {
     gap: 1rem;
     margin-right: 8px;
 }
-.icon-svg:hover svg {
-    fill: var(--font-lightBlue);
-}
 
 #logo-home {
     font-size: 2em;

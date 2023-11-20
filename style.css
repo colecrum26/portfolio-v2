@@ -72,10 +72,11 @@ a:link, a:active, a:hover, a:visited {
 
 #logo-home {
     font-size: 2em;
+    font-weight: 500;
     padding: 10px;
 }
 #logo-home:link, #logo-home:visited {
-    color: var(--font-lightGray);
+    color: var(--accent-green);
 }
 
 .nav-link {

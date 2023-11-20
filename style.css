@@ -57,6 +57,7 @@ a:link, a:active, a:hover, a:visited {
 }
 .navbar-content {
     display: flex;
+    justify-content: space-between;
 }
 .icons {
     display: flex;

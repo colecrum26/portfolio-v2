@@ -59,12 +59,15 @@ a:link, a:active, a:hover, a:visited {
     display: flex;
     justify-content: space-between;
 }
+.nav-links {
+    display: flex;
+}
 .icons {
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-self: flex-end;
     gap: 1rem;
+    margin-right: 8px;
 }
 
 #logo-home {

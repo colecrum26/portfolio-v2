@@ -127,7 +127,7 @@ a:link, a:active, a:hover, a:visited {
 }
 
 .about-content-container {
-    margin-top: 50px;
+    margin: 50px 0 50px 0;
 }
 
 .cards {
@@ -148,6 +148,7 @@ a:link, a:active, a:hover, a:visited {
     padding: 12px;
     text-align: center;
     border: 2px solid red;
+    background-color: #0f2b50;
 }
 
 .featured {

@@ -87,6 +87,7 @@ a:link, a:active, a:hover, a:visited {
 }
 .nav-link:active, .nav-link:hover {
     color: var(--font-lightBlue);
+    font-weight: 500;
 }
 
 #atf {
@@ -157,6 +158,7 @@ a:link, a:active, a:hover, a:visited {
 }
 .project-copy {
     text-align: left;
+    min-height: 61.5px;
 }
 .tech-list {
     display: flex;

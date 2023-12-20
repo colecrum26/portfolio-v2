@@ -43,6 +43,7 @@ h2 {
 
 p {
     font-size: 1.05rem;
+    padding: 0 20px;
 }
 
 a {
@@ -50,6 +51,10 @@ a {
 }
 a:link, a:active, a:hover, a:visited {
     color: var(--font-lightBlue);
+}
+
+em:hover {
+    color: #e87722;
 }
 
 #navbar {
@@ -150,7 +155,7 @@ a:link, a:active, a:hover, a:visited {
 }
 .work-content-card {
     height: 300px;
-    width: 300px;
+    width: 325px;
     margin: 16px 0;
     padding: 12px;
     text-align: center;
@@ -165,6 +170,7 @@ a:link, a:active, a:hover, a:visited {
 .project-copy {
     text-align: left;
     min-height: 61.5px;
+    padding: 0;
 }
 .tech-list {
     display: flex;

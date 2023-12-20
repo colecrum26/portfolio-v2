@@ -57,6 +57,7 @@ a:link, a:active, a:hover, a:visited {
 }
 .navbar-content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .nav-links {
@@ -106,6 +107,11 @@ a:link, a:active, a:hover, a:visited {
 .intro-heading {
     text-align: left;
     font-size: 2rem;
+    margin: 0;
+}
+#intro-subheading {
+    font-size: 1.9rem;
+    margin-top: 10px;
 }
 
 .scroll-container {

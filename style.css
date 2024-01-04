@@ -204,3 +204,9 @@ em:hover {
 #email-link {
     padding: 8px;
 }
+
+@media screen and (max-width: 460px) {
+    #intro {
+        padding: 0px;
+    }
+}

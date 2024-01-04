@@ -2,6 +2,7 @@
     --base: #0c2340;
     --accent-green: #004C54;
     --accent-gray: #dfdede;
+    --accent-silver: #a5acaf;
     --font-lightGray: #3e3e3e;
     --font-baseWhite: #e3e3e3;
     --font-lightBlue: #67a8fd;
@@ -148,7 +149,6 @@ em:hover {
     justify-content: space-evenly;
     gap: 1rem;
     margin: 50px 0;
-    border: 2px solid red;
 }
 .work-content-container {
     margin-bottom: 18px;
@@ -159,7 +159,7 @@ em:hover {
     margin: 16px 0;
     padding: 12px;
     text-align: center;
-    border: 2px solid red;
+    border: 2px solid var(--accent-silver);
     border-radius: 4px;
     background-color: #0f2b50;
 }
@@ -189,20 +189,18 @@ em:hover {
     padding: 30px;
 }
 .external-link {
-    padding: 12px;
+    padding: 8px;
     border: 3px solid var(--accent-green);
     border-radius: 4px;
 }
 .external-link:hover {
+    color: white;
     background-color: var(--accent-green);
     border-color: black;
 }
 
 .contact-container {
     margin: 40px 0px 18px 0px;
-}
-#email-link {
-    padding: 8px;
 }
 
 @media screen and (max-width: 460px) {

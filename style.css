@@ -92,7 +92,7 @@ em:hover {
 .nav-link:link, .nav-link:visited {
     color: var(--font-lightGray);
 }
-.nav-link:active, .nav-link:hover {
+.nav-link:hover {
     color: var(--font-lightBlue);
     font-weight: 500;
 }
@@ -116,7 +116,7 @@ em:hover {
     margin: 0;
 }
 #intro-subheading {
-    font-size: 2.1rem;
+    font-size: 2.3rem;
     margin-top: 10px;
 }
 
@@ -195,11 +195,13 @@ em:hover {
     padding: 8px;
     border: 3px solid var(--accent-green);
     border-radius: 16px;
+    transition: box-shadow ease-in 200ms;
 }
 .external-link:hover {
     color: white;
     background-color: var(--accent-green);
-    border-color: black;
+    border-color: var(--accent-silver);
+    box-shadow: 1px 1px 1px #a5acaf73;
 }
 
 .contact-container {

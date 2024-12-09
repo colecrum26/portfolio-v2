@@ -167,6 +167,7 @@ em:hover {
     border: 2px solid var(--accent-silver);
     border-radius: 4px;
     background-color: #0f2b50;
+    box-shadow: 2px 2.5px 2px var(--accent-green);
 }
 
 .featured {
